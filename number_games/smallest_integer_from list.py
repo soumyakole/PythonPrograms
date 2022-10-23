@@ -15,3 +15,4 @@ def key_gen(i, j):
 
 s = sorted(test_list, key = functools.cmp_to_key(key_gen))
 print(int(''.join(map(str,s))))
+
