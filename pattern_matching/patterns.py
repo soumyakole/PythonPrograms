@@ -1,5 +1,5 @@
 # Extract phone number and convert to integer
-https://www.youtube.com/watch?v=K8L6KVGG-7o
+# https://www.youtube.com/watch?v=K8L6KVGG-7o
 import re
 text = [
 'Frank,123 Main,925-555-1943,95122',
