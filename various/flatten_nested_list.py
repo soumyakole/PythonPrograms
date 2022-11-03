@@ -10,5 +10,11 @@ def flatten(lst):
         else:
             yield i
 
+ls = [1, [2, 3], [4, [5, 6]], [7, [8, [9, 10]]]]
+print(list(flatten(ls)))
 
-print(list(flatten([1, [2, 3], [4, [5, 6]], [7, [8, [9, 10]]]])))
+ls1=[[1,2],[3,4],[5,6]]
+for l in ls1:
+    for i in l:
+        print(i)
+print([i for l in ls1 for i in l])
